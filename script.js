@@ -9,7 +9,7 @@ class Person {
 	}
 }
 
-class Employee extends person {
+class Employee extends Person {
 	constructor(name,age,JobTitle){
 		super(name,age);
         this.JobTitle=JobTitle;
