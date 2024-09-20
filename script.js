@@ -10,11 +10,11 @@ class Person {
 }
 
 class Employee extends Person {
-	constructor(name,age,JobTitle){
+	constructor(name,age,jobTitle){
 		super(name,age);
         this.JobTitle=JobTitle;
 	}
-	Jobgreet(){
+	jobgreet(){
 		console.log('Hello,my name is ${name}, I am ${age} years old, and My Job title i${JobTitle}');
 	}
 	
