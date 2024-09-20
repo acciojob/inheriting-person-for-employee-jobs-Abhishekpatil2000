@@ -5,7 +5,7 @@ class Person {
 		this.age=age;
 	}
 	greet(){
-		console.log('Hello,my name is ${name}, I am ${age} years old');
+		console.log(`Hello,my name is ${name}, I am ${age} years old`);
 	}
 }
 
