@@ -19,7 +19,7 @@ class Employee extends Person {
 	}
 } 
 let person1= new Person('Arun',39);
-let employee1= new Person('Kashish',26);
+let employee1= new Person('Kashish',26,'staff');
 person1.greet();
 employee1.jobgreet();
 // Do not change code below this line
