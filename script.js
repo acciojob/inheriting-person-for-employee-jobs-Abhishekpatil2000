@@ -1,4 +1,5 @@
 // complete this js code
+// complete this js code
 class Person {
 	constructor (name, age){
 		this.name = name;
@@ -19,8 +20,8 @@ class Employee extends Person {
 	}
 } 
 
-let Empolyee_Tom= new Employee('Kashish',26,'Manager');
-Empolyee_Tom.jobGreet();
+let Emply= new Employee('Kashish',26,'Manager');
+Emply.jobGreet();
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
