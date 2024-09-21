@@ -20,8 +20,8 @@ class Employee extends Person {
 } 
 let employee1= new Employee('Arun',39);
 let employee2= new Employee('Kashish',26,'staff');
-person1.greet();
-employee1.jobgreet();
+employee1.greet();
+employee2.jobgreet();
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
