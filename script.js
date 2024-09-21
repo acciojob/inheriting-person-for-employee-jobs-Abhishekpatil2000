@@ -14,14 +14,14 @@ class Employee extends Person {
 		super(name, age);
 		this.jobTitle = jobTitle;
 	}
-	jobgreet(){
+	jobGreet(){
 		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}`);
 	}
 } 
 let employee1= new Employee('Arun',39);
 let employee2= new Employee('Kashish',26,'staff');
 employee1.greet();
-employee2.jobgreet();
+employee2.jobGreet();
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
