@@ -18,7 +18,7 @@ class Employee extends Person {
 		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}`);
 	}
 } 
-let employee1= new Employee('Arun',39,'Scientist');
+let employee1= new Employee('Arun',39);
 let employee2= new Employee('Kashish',26,'staff');
 employee1.greet();
 employee2.jobGreet();
