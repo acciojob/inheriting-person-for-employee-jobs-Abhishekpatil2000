@@ -20,7 +20,7 @@ class Employee extends Person {
 } 
 
 let employee2= new Employee('Kashish',26,'staff');
-employee1.greet();
+employee2.greet();
 employee2.jobGreet();
 // Do not change code below this line
 window.Person = Person;
